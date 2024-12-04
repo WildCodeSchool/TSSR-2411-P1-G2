@@ -1,61 +1,107 @@
-# install.md
+# Install.md
 ---
-> Documentation à destination des développeurs pour l'installation et la configuration du serveur.
+### 📋 **Sommaire**
 
+   * **Introduction**
+   * **Configuration du fichier `mumble-server.ini`**
+       * Modification du port de connexion
+       * Modification du mot de passe
+       * Limitation du nombre d'utilisateurs
+       * Limitation des utilisateurs par canal
+       * Choix du salon par défaut
+   * **Configuration du serveur SSH**
+       * Modification du port SSH
+   * **Configuration du fichier de logs `mumble-server.log`**
+       * Modification du mot de passe SuperUser
+       * Lecture des logs
+   * **Base de données `mumble-server.sqlite`**
+       * Clé privée RSA
+       * Certificat RSA
+       * Autres informations contenues dans la base
 
+###  **Introduction**
 
-## **Configuration du server-mumble.ini**
+Ce document guide les développeurs à travers le processus d'installation et de configuration d'un serveur Mumble. Il couvre les principaux fichiers de configuration et explique leurs rôles.
+---
+
+## **Configuration du fichier `mumble-server.ini`**
+
+Le fichier `mumble-server.ini` contient les paramètres de configuration principaux du serveur Mumble. Pour le modifier, utilisez l'éditeur de texte `nano` :
+
 `sudo nano /etc/mumble-server.ini`
+
 ![](Ressources/mumble_serv.png)
 ![](Ressources/mumbleserv2.png)
-- **1. Modification du port de connexion au serveur Mumble**
-- **2. Modification de mot de passe pour se connecter au serveur Mumble**
-- **3. Maximum d'utilisateur autorisés en meme temps sur le serveur**
-- **4. Utilisateur maximum par channel (0 etant une no limit)**
-- **5. Choix du salon par defaut lors de la première entrée dans le serveur**
 
+-  **Modification du port de connexion au serveur Mumble** : Modifiez la valeur associée à la clé `port=` pour spécifier un port différent.
+-  **Modification de mot de passe pour se connecter au serveur Mumble** : Modifiez la valeur associée à la clé `serverpassword=` pour définir un nouveau mot de passe.
+-  **Maximum d'utilisateur autorisés en meme temps sur le serveur** : Modifiez la valeur associée à la clé `maxusers=` pour limiter le nombre d'utilisateurs simultanés.
+-  **Utilisateur maximum par channel (0 etant une no limit)** : Modifiez la valeur associée à la clé `channel_user_limit=` pour définir une limite par canal.
+-  **Choix du salon par defaut lors de la première entrée dans le serveur** : Modifiez la valeur associée à la clé `default_channel=` pour spécifier le canal par défaut.
 
 
 ---
+
 ## **Configuration du serveur ssh**
 `sudo nano /etc/ssh/sshd_config`
+
 ![](Ressources/portssh.png)
->dans l'encart présentée ci-dessus vous pouvez modifier le port de connexion au serveur ssh 
+
+Pour modifier le port d'écoute du serveur SSH, modifiez le fichier `sshd_config` :
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Modifiez la ligne `Port` pour spécifier le nouveau numéro de port.
+
 ---
 
+## **Affichage du fichier de logs `mumble-server.log`**
+`sudo nano /var/log/mumble-server/mumble-server.log`
 
-![](https://media.discordapp.net/attachments/1311982568035323915/1311985817555828747/mumbleserv2.png?ex=674ad982&is=67498802&hm=5d6fb10f1c2ada218b34b99fdea8334bba362bd72c8d3caf3d5af399b36ed195&=&format=webp&quality=lossless&width=621&height=565)
-**5. Choix du salon par defaut lors de la permiere entrée dans le serveur**
+![](Ressources/mumbleserverlog2.PNG)
 
----
-## **Configuration mumble-server.log**
-`root@flosh:~# sudo nano /var/log/mumble-server/mumble-server.log`
-![](https://media.discordapp.net/attachments/1311982568035323915/1311991178756886628/mumbleservelog.png?ex=674ade80&is=67498d00&hm=64d877622044339176754d66f83d9b85f157686f5a76c8e6d268f461f9c0442c&=&format=webp&quality=lossless&width=1345&height=565)
+### **1. Configuration du mot de passe du SuperUser**
 
-**1. Configuration du mot de passe du SuperUser**
+![](Ressources/mumbleservelog.png)
+
 >Si le mot de passe a été changer, que vous ne pouvez pas vous connecter et que l'ancien mot de passe n'a pas été écrit quelque part utilisée cette commande :
 `sudo murmurd -supw <pw>`
 `sudo murmurd -ini /etc/mumble-server.ini`
 Remplacer `<pw>` par ce que vous désirez mettre en mot de passe pour l'utilisateur "SuperUser".
 
-Si vous decendez plus bas vous pouvez voir les "logs" du serveur.
-![](https://media.discordapp.net/attachments/1311982568035323915/1311991903495127060/mumbleserverlog2.PNG?ex=674adf2d&is=67498dad&hm=164402911ca88a6bcb0245a61db69e07e296a353d6ea23da6d35a6bd60c63010&=&format=webp&quality=lossless&width=972&height=563)
 ---
-## Mumble-server.sqlite
-`root@flosh:~# sudo nano /var/lib/mumble-server.sqlite`
-![](https://media.discordapp.net/attachments/1311982568035323915/1311992733371465782/image.png?ex=674adff3&is=67498e73&hm=ff1d5c087c0a105ba0a6cf82d0eab09e41b6eafc0979de259cfe341029ab4f35&=&format=webp&quality=lossless&width=1423&height=563)
->**Clé privée RSA**
-La clé privée RSA correspond à la clé secrète associée au certificat public.
+
+### **Base de données `mumble-server.sqlite`**
+Pour y accéder utilisez la commande
+`sudo nano /var/lib/mumble-server.sqlite`
+
+La base de données `mumble-server.sqlite` stocke les informations sur les utilisateurs, les canaux, les permissions et d'autres paramètres du serveur. **Attention :** Ne modifiez pas cette base de données manuellement, sauf si vous savez exactement ce que vous faites.
+
+**Important :** Sauvegardez régulièrement la base de données pour éviter toute perte de données en cas de problème.
+
+
+* **Clé privée RSA** : Clé secrète utilisée pour chiffrer les communications.
+  La clé privée RSA correspond à la clé secrète associée au certificat public.
 Elle est utilisée pour :
 Déchiffrer les messages chiffrés par le client avec la clé publique.
 Signer des communications, garantissant qu'elles proviennent du serveur authentique.
 **Important :** Cette clé doit être gardée secrète. Si elle est compromise, un tiers pourrait intercepter ou usurper les communications.
 
-![](https://media.discordapp.net/attachments/1311982568035323915/1311992890217463838/image.png?ex=674ae018&is=67498e98&hm=e744a2a4657a03c7619b26e8ab70b9f1ad892b114972ca33a174089c3c905c5a&=&format=webp&quality=lossless&width=1440&height=460)
->**Certificat RSA**
+![](Ressources/CléRSA.png)
+
+
+* **Certificat RSA** : Clé publique utilisée pour vérifier l'identité du serveur.
 Le certificat RSA est un fichier contenant une clé publique qui identifie le serveur de manière sécurisée.
 Il est utilisé pour établir des connexions chiffrées entre les clients Mumble et le serveur Murmur.
 Lorsqu'un client se connecte, le serveur utilise ce certificat pour prouver son identité et permettre le chiffrement de la communication.
+
+![](Ressources/certificatRSA.png)
+
+
+* **Autres informations** : Utilisateurs enregistrés, canaux, permissions, etc.
+
 
 Ce fichiée contient aussi :
 * 1.Utilisateurs et Identifiants
@@ -77,6 +123,5 @@ Ce fichiée contient aussi :
 * 6.Logs
     * Journaux d'événements (selon la configuration, les logs peuvent être stockés ici).
 
-![](https://media.discordapp.net/attachments/1311982568035323915/1311994602386886749/mumble-serversqlite2.png?ex=674ae1b0&is=67499030&hm=9517472830b7ba3f7881c578b025d469d9a7a35f5c543cc4355f2205a1ebf10f&=&format=webp&quality=lossless&width=967&height=565)
-
+![](Ressources/mumbleserversqlite2.png)
 ---
