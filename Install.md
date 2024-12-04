@@ -8,11 +8,11 @@
 `sudo nano /etc/mumble-server.ini`
 ![](Ressources/mumble_serv.png)
 ![](Ressources/mumbleserv2.png)
-**1.  Modification du port de connexion au serveut mumble**
-**2. Modification de mot de passe pour se connecter au serveur Mumble**
-**3. Maximum d'utilisateur autoriser en meme temps sur le serveur**
-**4. utilisateur maximum par channel (0 etant une no limit)**
-**5. Choix du salon par defaut lors de la permiere entrée dans le serveur**
+- **1. Modification du port de connexion au serveur Mumble**
+- **2. Modification de mot de passe pour se connecter au serveur Mumble**
+- **3. Maximum d'utilisateur autorisés en meme temps sur le serveur**
+- **4. Utilisateur maximum par channel (0 etant une no limit)**
+- **5. Choix du salon par defaut lors de la première entrée dans le serveur**
 
 
 
