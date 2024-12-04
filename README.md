@@ -27,9 +27,29 @@ Cela inclut :
 * Logiciels: **Prometheus**, et "Grafana" pour surveiller et journaliser les sessions.
 
 ## **Membres du Groupe de Projet et Rôles**
-**Développeurs:** The-Flosh, Jupikar
-**Product Owner:** Gassmi
-**Scrum Master:** Barbara
+Scrum Master
+Barbara, experte dans la rédaction, maitrise le Markdown, bilingue (on prévoit un déploiement en Italie), comprend aussi bien les enjeux que la technique.
+Product Owner
+Saddem, très bon porte-parole grâce à sa voix qui impose le respect, apporte une grande aide aux développeurs avec sa connaissance approfondie de la programmation et du réseau.
+Développeurs
+Alexandre (Flosh) , try-harder de la programmation, son repas préféré : une grosse assiette de configuration.ini saupoudrée de documentation.md.
+Julien, navigue à vue entre ses vms sur Proxmox, surf sur les scripts et apprécie les pool d’adresse IP.
+
+
+
+Sprint 1
+Comprendre le fonctionnent du logicielle
+Analyser l’effet des modifications du fichier de configuration
+Résoudre les 1er problèmes techniques
+Création des VM , installation des logicielles et configuration
+
+SPRINT 2
+Ajout de l’interface web de Mumble
+Ajout d’une solution de monitoring de logs
+Rédaction de la documentation claire et détaillée
+Optimisation, ajout de fonctionnalités et rédaction de la documentation
+
+
 
 
 # **Prérequis Techniques**
