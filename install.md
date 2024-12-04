@@ -5,7 +5,7 @@
 ---
 ## **Configuration du serveur ssh**
 `root@flosh:~# sudo nano /etc/ssh/sshd_config`
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/fcef1df61311a15aec53f7297145851f3b6c777d/install.md?plain=1#L8)
+![](Ressources/portssh.png)
 >dans l'encart présentée ci-dessus vous pouvez modifier le port de connexion au serveur ssh 
 ---
 ## **Configuration du server-mumble.ini**
