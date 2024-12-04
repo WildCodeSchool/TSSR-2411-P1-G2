@@ -6,12 +6,15 @@
 
 ## **Configuration du server-mumble.ini**
 `sudo nano /etc/mumble-server.ini`
-![](https://media.discordapp.net/attachments/1311982568035323915/1311985009233498124/mumble_serv.png?ex=674ad8c1&is=67498741&hm=7bf5d1477de7808b8ddc23f88ea330721df28a7fbd0cbc6844deffdba7a6732b&=&format=webp&quality=lossless&width=658&height=565)
-
+![](Ressources/mumble_serv.png)
+![](Ressources/mumbleserv2.png)
 **1.  Modification du port de connexion au serveut mumble**
 **2. Modification de mot de passe pour se connecter au serveur Mumble**
 **3. Maximum d'utilisateur autoriser en meme temps sur le serveur**
 **4. utilisateur maximum par channel (0 etant une no limit)**
+**5. Choix du salon par defaut lors de la permiere entrée dans le serveur**
+
+
 
 ---
 ## **Configuration du serveur ssh**
