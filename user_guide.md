@@ -25,14 +25,27 @@
 - **Ouvrez un terminal.**
 - **Utilisez le gestionnaire de paquets de votre distribution:**
     - **Debian/Ubuntu:** `sudo apt install mumble`
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%201.png?raw=true)
     - **Fedora/CentOS:** `sudo dnf install mumble`
     - **Arch Linux:** `sudo pacman -S mumble`
 - **Lancez Mumble:** Recherchez Mumble dans votre menu d'applications ou tapez `mumble` dans un terminal.
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%202.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%203.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%204.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%205.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%206.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%207.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%208.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%209.png?raw=true)
 
 ### Configuration initiale
 
 - **Connexion au serveur:** Dans la fenêtre Mumble, entrez l'adresse du serveur auquel vous souhaitez vous connecter (fournie par l'administrateur du serveur).
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2010.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2011.png?raw=true)
 - **Identifiants:** Choisissez un nom d'utilisateur et, si nécessaire, un mot de passe.
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2012.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2013.png?raw=true)
 - **Configuration audio:** Mumble vous guidera pour configurer votre microphone et vos haut-parleurs.
 
 **Conseils supplémentaires:**
