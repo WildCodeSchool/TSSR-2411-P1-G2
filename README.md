@@ -31,7 +31,7 @@ Cela inclut :
 4. Clients :
 * Deux ordinateurs ou machines virtuelles exécutant des systèmes variés (Windows, macOS, Linux) avec le logiciel client Mumble.
 5. Outils de monitoring :
-* Logiciels: "Prontail", "Loki", et "Grafana" pour surveiller et journaliser les sessions.
+* Logiciels: "Promtail", "Loki", et "Grafana" pour surveiller et journaliser les sessions.
 
 ---
 
@@ -89,7 +89,7 @@ Julien, navigue à vue entre ses vms sur Proxmox, surf sur les scripts et appré
 - **Configuration des clients:** Configurer les clients pour se connecter au serveur avec les paramètres corrects.
 
 **3. Configuration de la Journalisation**
-- **Choix des outils:** Utilisation de  `Prontail` , `Loki` et `Grafana` pour surveiller l'état du serveur, la consommation des ressources, et les éventuelles alertes.
+- **Choix des outils:** Utilisation de  `Promtail` , `Loki` et `Grafana` pour surveiller l'état du serveur, la consommation des ressources, et les éventuelles alertes.
 - **Configuration:** Configurer l'outil choisi pour enregistrer les événements pertinents (connexion, déconnexion, messages, etc.).
 
 **6. Considérations Supplémentaires**
