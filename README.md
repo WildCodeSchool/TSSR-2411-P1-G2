@@ -11,6 +11,8 @@
 ## **Introduction: Mise en contexte**
 Ce projet a pour objectif la mise en place d'une infrastructure permettant des communications vocales sécurisées entre plusieurs clients via le logiciel open source **Mumble**.
 Cela inclut :
+
+## **Objectif principal**
 * Configuration d’un serveur vocal **Mumble** sur un système **Debian 12.**
 * Connexion de deux clients à ce serveur, avec des systèmes d’exploitation variés (Windows, Linux, macOS, etc.).
 * Garantir que les communications soient fonctionnelles et sécurisées.
