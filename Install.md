@@ -22,6 +22,16 @@
 ###  **Introduction**
 
 Ce document guide les développeurs à travers le processus d'installation et de configuration d'un serveur Mumble. Il couvre les principaux fichiers de configuration et explique leurs rôles.
+
+---
+
+## Mettre à jour la machine Debian 12 
+`sudo apt update && sudo apt upgrade -y`
+
+
+## Installer le serveur Mumble 
+`sudo apt install mumble-server -y`
+
 ---
 
 ## **Configuration du fichier `mumble-server.ini`**
