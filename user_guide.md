@@ -22,16 +22,22 @@
 
 **Linux:**
 
-- **Ouvrez un terminal.**
-- **Utilisez le gestionnaire de paquets de votre distribution:**
-    - **Debian/Ubuntu:** `sudo apt install mumble`
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%201.png?raw=true)
-    - **Fedora/CentOS:** `sudo dnf install mumble`
-    - **Arch Linux:** `sudo pacman -S mumble`
-- **Lancez Mumble:** Recherchez Mumble dans votre menu d'applications ou tapez `mumble` dans un terminal.
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%202.png?raw=true)
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%203.png?raw=true)
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%204.png?raw=true)
+- **Ouvrez le magazin d'application
+![](Ressources/install_user1.png)
+
+- **Recherchez Mumble dans le magazin d'applications 
+![](Ressources/install_user2.png)
+
+- **Cliquez sur le bouton "Installer"
+![](Ressources/install_user3.png)
+
+- **Une fois l'installation terminée, cliquez sur le bouton "Ouvrir"**
+![](Ressources/install_user4.png)
+
+- **Ensuite, suivez le processus de configuration initial**
+![](Ressources/installation_mumble_2.png)
+![](Ressources/installation_mumble_3.png)
+![](Ressources/installation_mumble_4.png)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%205.png?raw=true)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%206.png?raw=true)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%207.png?raw=true)
