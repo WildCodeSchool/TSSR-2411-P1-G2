@@ -1,5 +1,27 @@
 # TSSR-2411-P1-G2
 # **Projet: Serveur de communication vocal**
+
+
+![](Ressources/Icons_mumble.svg.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 ## **Introduction: Mise en contexte**
 Ce projet a pour objectif la mise en place d'une infrastructure permettant des communications vocales sécurisées entre plusieurs clients via le logiciel open source **Mumble**. 
