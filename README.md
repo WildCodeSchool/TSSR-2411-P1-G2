@@ -9,7 +9,7 @@
 
 ---
 ## **Introduction: Mise en contexte**
-Ce projet a pour objectif la mise en place d'une infrastructure permettant des communications vocales sécurisées entre plusieurs clients via le logiciel open source **Mumble**. 
+Ce projet a pour objectif la mise en place d'une infrastructure permettant des communications vocales sécurisées entre plusieurs clients via le logiciel open source **Mumble**.
 Cela inclut :
 * Configuration d’un serveur vocal **Mumble** sur un système **Debian 12.**
 * Connexion de deux clients à ce serveur, avec des systèmes d’exploitation variés (Windows, Linux, macOS, etc.).
@@ -74,8 +74,9 @@ Julien, navigue à vue entre ses vms sur Proxmox, surf sur les scripts et appré
 ## Logiciel
 * Systèmes d'exploitation Debian 12.iso.
 * Server Mumble.
-* VMware, Virtual Box ou Proxmox.
-* Un accès SSH au serveur Mumble une fois installé.
+* Client Mumble.
+* VMware, Virtual Box ou Proxmox (si installation dans des VM)
+
 
 # **Étapes Détaillées du Projet**:
 **1. Installation du Serveur Mumble sur Debian 12**
@@ -83,28 +84,14 @@ Julien, navigue à vue entre ses vms sur Proxmox, surf sur les scripts et appré
 - **Installation de Mumble:** Utiliser le gestionnaire de paquets `apt` pour installer Mumble et ses dépendances.
 - **Configuration:** Configurer le serveur pour définir les ports, les canaux, les autorisations, etc.
 
-**2. Configuration de la Journalisation**
-- **Choix d'un outil:** Utiliser des outils comme `syslog`, `rsyslog`, ou des solutions plus spécialisées comme `auditd`.
-- **Configuration:** Configurer l'outil choisi pour enregistrer les événements pertinents (connexion, déconnexion, messages, etc.).
-- **Stockage:** Définisser un emplacement de stockage adapté pour les logs (local, distant, cloud).
-
-**3. Mise en place de la Surveillance**
-- **Outils de monitoring:** Utilisation de  `Prometheus` et `Grafana`pour surveiller l'état du serveur, la consommation des ressources, et les éventuelles alertes.
-
-**4.Installation des Clients**
-- **Disponibilité multiplateforme:** S'assurer que les clients Mumble sont disponibles pour tous les systèmes d'exploitation que vous souhaitez supporter (Windows, macOS, Linux).
+**2.Installation des Clients**
+- **Disponibilité multiplateforme:** Le logicielle clients Mumble est disponible pour tous les systèmes d'exploitation les plus courants (Windows, macOS, Linux).
 - **Configuration des clients:** Configurer les clients pour se connecter au serveur avec les paramètres corrects.
 
-**5. Tests et Optimisation**
-- **Tests de connexion:** Vérifier que les clients peuvent se connecter au serveur et communiquer entre eux.
-- **Tests de qualité:** Évaluer la qualité de l'audio et de la vidéo.
-- **Optimisation des performances:** Ajuster les paramètres du serveur et des clients pour optimiser les performances en fonction de votre configuration matérielle et du nombre d'utilisateurs.
+**3. Configuration de la Journalisation**
+- **Choix des outils:** Utilisation de  `Prontail` , `Loki` et `Grafana` pour surveiller l'état du serveur, la consommation des ressources, et les éventuelles alertes.
+- **Configuration:** Configurer l'outil choisi pour enregistrer les événements pertinents (connexion, déconnexion, messages, etc.).
 
 **6. Considérations Supplémentaires**
 - **Documentation:** Créer une documentation complète pour faciliter la gestion et la maintenance du serveur.
  
-
-
-
-`sudo ufw allow 64738/udp`
-`sudo ufw reload`
