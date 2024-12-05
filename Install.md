@@ -3,6 +3,7 @@
 ### 📋 **Sommaire**
 
    * **Introduction**
+   * **Mise à jour des packets et installation du serveur Mumble**
    * **Configuration du fichier `mumble-server.ini`**
        * Modification du port de connexion
        * Modification du mot de passe
