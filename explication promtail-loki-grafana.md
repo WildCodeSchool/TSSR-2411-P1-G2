@@ -118,9 +118,8 @@ sudo chmod +x /usr/local/bin/loki
 crée le fichiée de configuration de loki dans /etc/loki-config.yml
 
 <aside>
-🚨
 
-ATTENTION selon la version de loki le script a ecrire dans ce dossier peux etre différent et vous renvoyer des erreur lors de la mise en route de celui-ci (ici la v11 de loki est utilisée)! 🚨                                                          
+>🚨ATTENTION selon la version de loki le script a ecrire dans ce dossier peux etre différent et vous renvoyer des erreur lors de la mise en route de celui-ci (ici la v11 de loki est utilisée)! 🚨                                                          
 
 </aside>
 
@@ -166,9 +165,8 @@ compactor:
 ```
 
 <aside>
-🚨
 
-Dans les version plus avancée de loki *(exemple: v13)* vous aurez besoin de rajoutée une ligne dans la section compactor 
+🚨Dans les version plus avancée de loki *(exemple: v13)* vous aurez besoin de rajoutée une ligne dans la section compactor 
 
 ```jsx
 shared_store: filesystem
@@ -182,7 +180,7 @@ compactor:
 	shared_store: filesystem
 ```
 
-dans cette version (ici la v11) seul le champ est requi “working_directory” et doit pointer vers un répertoire valide.
+dans cette version (ici la v11) seul le champ est requi “working_directory” et doit pointer vers un répertoire valide.🚨
 
 </aside>
 
@@ -241,7 +239,7 @@ passons maintenant a la configuration de Grafana!
 
 ![image.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/graaa.png)
 
-prendre en main grafana n’est pas simple de prime abord mais apres une petite demi heure de prise en main vous comprendre les bases et ce guide est la pour vous aidée.
+prendre en main grafana n’est pas simple de prime abord mais apres une petite demi heure de prise en main vous comprendrez les bases et ce guide est la pour vous aidée.
 
 deja commençons par installer le dépot officiel grafana: 
 
