@@ -16,7 +16,8 @@ Cela inclut :
 * Configuration d’un serveur vocal **Mumble** sur un système **Debian 12.**
 * Connexion de deux clients à ce serveur, avec des systèmes d’exploitation variés (Windows, Linux, macOS, etc.).
 * Garantir que les communications soient fonctionnelles et sécurisées.
-
+* Rédiger une documentation détaillée de l'installation et de la configuration.
+  
 ### **Objectif secondaire** :
 1. Journalisation :
 * Suivi des activités des utilisateurs (heures de connexion, messages, etc.).
