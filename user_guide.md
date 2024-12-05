@@ -1,4 +1,4 @@
-**Voici un tutoriel général, adapté à différents systèmes d'exploitation :**
+# **Voici un tutoriel général, pour installer le logiciel Mumble sur un poste client, adapté à différents systèmes d'exploitation :**
 
 ### Téléchargement du client Mumble
 
