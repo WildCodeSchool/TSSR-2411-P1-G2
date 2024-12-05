@@ -1,4 +1,4 @@
-# expliquation promtail-loki-Grafana
+# explication promtail-loki-Grafana
 
 ![image.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/ohlordhavemercy.png)
 
