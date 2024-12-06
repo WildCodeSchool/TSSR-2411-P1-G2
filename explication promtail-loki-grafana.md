@@ -313,7 +313,7 @@ crée un nouveau dashboard.
 
 et ajoutée une nouvelle visualisation.
 
-![grafana10.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana10.png)
+![grafana10.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana10.png?raw=true)
 
 vous aller atterire sur une nouvelle page ou ont vous demande de choisir votre soucre de data pour la visualisation.donc séléctionner loki.
 
