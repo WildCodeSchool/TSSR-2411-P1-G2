@@ -44,11 +44,11 @@ Le fichier `mumble-server.ini` contient les paramètres de configuration princip
 ![](Ressources/mumble_serv.png)
 ![](Ressources/mumbleserv2.png)
 
--  1. **Modification du port de connexion au serveur Mumble** : Modifiez la valeur associée à la clé `port=` pour spécifier un port différent.
--  2. **Modification de mot de passe pour se connecter au serveur Mumble** : Modifiez la valeur associée à la clé `serverpassword=` pour définir un nouveau mot de passe.
--  3. **Maximum d'utilisateur autorisés en meme temps sur le serveur** : Modifiez la valeur associée à la clé `maxusers=` pour limiter le nombre d'utilisateurs simultanés.
--  4. **Utilisateur maximum par channel (0 etant une no limit)** : Modifiez la valeur associée à la clé `channel_user_limit=` pour définir une limite par canal.
--  5. **Choix du salon par defaut lors de la première entrée dans le serveur** : Modifiez la valeur associée à la clé `default_channel=` pour spécifier le canal par défaut.
+  1. **Modification du port de connexion au serveur Mumble** : Modifiez la valeur associée à la clé `port=` pour spécifier un port différent.
+  2. **Modification de mot de passe pour se connecter au serveur Mumble** : Modifiez la valeur associée à la clé `serverpassword=` pour définir un nouveau mot de passe.
+  3. **Maximum d'utilisateur autorisés en meme temps sur le serveur** : Modifiez la valeur associée à la clé `maxusers=` pour limiter le nombre d'utilisateurs simultanés.
+  4. **Utilisateur maximum par channel (0 etant une no limit)** : Modifiez la valeur associée à la clé `channel_user_limit=` pour définir une limite par canal.
+  5. **Choix du salon par defaut lors de la première entrée dans le serveur** : Modifiez la valeur associée à la clé `default_channel=` pour spécifier le canal par défaut.
 
 
 ---
