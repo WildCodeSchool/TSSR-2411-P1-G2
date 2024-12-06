@@ -22,13 +22,13 @@
 
 **Linux:**
 
-- **Ouvrez le magazin d'application
+- **Ouvrez le magazin d'application**
 ![](Ressources/install_user1.png)
 
-- **Recherchez Mumble dans le magazin d'applications 
+- **Recherchez Mumble dans le magazin d'applications** 
 ![](Ressources/install_user2.png)
 
-- **Cliquez sur le bouton "Installer"
+- **Cliquez sur le bouton "Installer"**
 ![](Ressources/install_user3.png)
 
 - **Une fois l'installation terminée, cliquez sur le bouton "Ouvrir"**
