@@ -1,5 +1,16 @@
 # **Voici un tutoriel général, pour installer le logiciel Mumble sur un poste client, adapté à différents systèmes d'exploitation :**
 
+
+# **Sommaire**
+
+Ce tutoriel t'explique comment installer Mumble sur ton ordinateur.
+
+   - Télécharger Mumble : Où trouver le logiciel et quelle version choisir.
+   - Installer Mumble : Les étapes simples pour installer Mumble sur Windows, macOS ou Linux.
+   - Configurer Mumble : Comment te connecter à un serveur, choisir un nom d'utilisateur et régler ton micro.
+   - En bref, ce guide te permet d'utiliser Mumble en quelques minutes.
+
+
 ### Téléchargement du client Mumble
 
 1. **Visitez le site officiel de Mumble:** Rendez-vous sur https://www.mumble.info/downloads/.
