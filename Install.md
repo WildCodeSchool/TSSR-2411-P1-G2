@@ -54,7 +54,8 @@ Le fichier `mumble-server.ini` contient les paramètres de configuration princip
 ---
 
 ## **Configuration du serveur ssh**
-Si vous avez besoin d'un accès à distance au serveur
+Si vous avez besoin d'un accès à distance au serveur.
+
 `sudo nano /etc/ssh/sshd_config`
 
 ![](Ressources/portssh.png)
