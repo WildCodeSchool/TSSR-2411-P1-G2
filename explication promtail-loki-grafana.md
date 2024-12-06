@@ -279,9 +279,9 @@ nous allons maintenant ajoutée la soucre de data loki a grafana pour qu’il pu
 
 une fois dans le menu ci dessous tapper loki dans la barre de recherche et selectioner le.
 
-![grafana3.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana3.png)
+![grafana3.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana3.png?raw=true)
 
-![grafana4.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana4.png)
+![grafana4.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana4.png?raw=true)
 
 vous aller donc atterire sur la page de configuration de la soucre data
 
