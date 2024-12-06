@@ -309,7 +309,7 @@ selectionner dashboard.
 
 crée un nouveau dashboard.
 
-![grafana9.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana9.png)
+![grafana9.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana9.png?raw=true)
 
 et ajoutée une nouvelle visualisation.
 
