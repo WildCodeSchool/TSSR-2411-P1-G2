@@ -305,7 +305,7 @@ bien la source ayant été ajoutée avec succes nous allon maintenant passer a l
 
 selectionner dashboard.
 
-![grafana8.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana8.png)
+![grafana8.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana8.png?raw=true)
 
 crée un nouveau dashboard.
 
