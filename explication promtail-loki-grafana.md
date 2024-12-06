@@ -289,11 +289,11 @@ vous aller donc atterire sur la page de configuration de la soucre data
 
 entrée votre url de connexion ici http://localhost:3100 .(selon la configuration de loki ci dessus si vous avez changer le port en faisant la configuration merci de renseigner le port que vous avez mis)
 
-![grafana5.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana5.png)
+![grafana5.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana5.png?raw=true)
 
 vous pouvez maintenant descendre tout en bas de la page et appuyer sur “save and test” pour sauvegarder et tester
 
-![grafana6.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana6.png)
+![grafana6.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana6.png?raw=true)
 
 une fois fait vous devriez avoir un message ressemblant a ceci pour vous dire que la sauvegarde a bien ete faite et que la source a ete correctement connecter.
 
@@ -301,7 +301,7 @@ une fois fait vous devriez avoir un message ressemblant a ceci pour vous dire qu
 
 bien la source ayant été ajoutée avec succes nous allon maintenant passer a la partit la plus marrante la creation du dash board. retourner donc au menu principal.Et selectionner le menu deroulant a gauche de votre ecrant avec trois barre horizontale.
 
-![grafana7.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana7.png)
+![grafana7.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana7.png?raw=true)
 
 selectionner dashboard.
 
