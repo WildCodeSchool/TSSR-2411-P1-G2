@@ -271,7 +271,7 @@ maintenant nous allons rajouter une source de data a grafana.
 
 dans la barre de recherche ci dessous rechercher la categorie “data sources” et cliquer dessus.
 
-![grafana1.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana1.png?raw=true)
+![grafana1.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana1.png)
 
 nous allons maintenant ajoutée la soucre de data loki a grafana pour qu’il puisse récoltée les donnée et le retranscrire sur grafana. selectionée add new data source. 
 
