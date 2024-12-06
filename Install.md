@@ -53,24 +53,6 @@ Le fichier `mumble-server.ini` contient les paramètres de configuration princip
   4. **Utilisateur maximum par channel (0 etant une no limit)** : Modifiez la valeur associée à la clé `channel_user_limit=` pour définir une limite par canal.
   5. **Choix du salon par defaut lors de la première entrée dans le serveur** : Modifiez la valeur associée à la clé `default_channel=` pour spécifier le canal par défaut.
 
-
----
-
-## **Configuration du serveur ssh**
-Si vous avez besoin d'un accès à distance au serveur.
-
-`sudo nano /etc/ssh/sshd_config`
-
-![](Ressources/portssh.png)
-
-Pour modifier le port d'écoute du serveur SSH, modifiez le fichier `sshd_config` :
-
-```bash
-sudo nano /etc/ssh/sshd_config
-```
-
-Modifiez la ligne `Port` pour spécifier le nouveau numéro de port.
-
 ---
 
 ## **Affichage du fichier de logs `mumble-server.log`**
@@ -140,4 +122,22 @@ Ce fichiée contient aussi :
     * Journaux d'événements (selon la configuration, les logs peuvent être stockés ici).
 
 ![](Ressources/mumbleserversqlite2.png)
+
+---
+
+## **Configuration du serveur ssh**
+Si vous avez besoin d'un accès à distance au serveur.
+
+`sudo nano /etc/ssh/sshd_config`
+
+![](Ressources/portssh.png)
+
+Pour modifier le port d'écoute du serveur SSH, modifiez le fichier `sshd_config` :
+
+```bash
+sudo nano /etc/ssh/sshd_config
+```
+
+Modifiez la ligne `Port` pour spécifier le nouveau numéro de port.
+
 ---
