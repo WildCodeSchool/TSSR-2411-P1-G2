@@ -317,23 +317,23 @@ et ajoutée une nouvelle visualisation.
 
 vous aller atterire sur une nouvelle page ou ont vous demande de choisir votre soucre de data pour la visualisation.donc séléctionner loki.
 
-![grafana11.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana11.png)
+![grafana11.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana11.png?raw=true)
 
 un fois fait la petite fenetre va se fermer et vous aller etre sur le panneau de configurationde votre dashboard cliquer ici pour changer de visualisation.
 
-![grafana12.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana12.png)
+![grafana12.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana12.png?raw=true)
 
 une fois fait le menu deroulant des visualisations va s’ouvrir ici nous voulons les logs donc nous allons simplement tapper logs dans la barre de recherche des visualisation.
 
-![grafana13.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana13.png)
+![grafana13.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana13.png?raw=true)
 
 selectioner donc la visualisation logs.
 
-![grafana14.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana14.png)
+![grafana14.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana14.png?raw=true)
 
 vous allez atterire sur une nouvelle visualisation celle des logs:
 
-![grafana15.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana15.png)
+![grafana15.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/grafana15.png?raw=true)
 
 1 : permet de changer le nom du dashboard (donc ici remplacer “panel title” par “logs”)
 
