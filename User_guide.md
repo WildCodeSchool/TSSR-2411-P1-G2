@@ -47,7 +47,7 @@
 ### Configuration initiale
 
 - **Connexion au serveur:** Dans la fenêtre Mumble, entrez l'adresse du serveur auquel vous souhaitez vous connecter (fournie par l'administrateur du serveur).
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2010.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation_mumble_10.png?raw=true)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2011.png?raw=true)
 - **Identifiants:** Choisissez un nom d'utilisateur et, si nécessaire, un mot de passe.
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%2012.png?raw=true)
