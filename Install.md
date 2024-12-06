@@ -10,8 +10,6 @@
        * Limitation du nombre d'utilisateurs
        * Limitation des utilisateurs par canal
        * Choix du salon par défaut
-   * **Configuration du serveur SSH**
-       * Modification du port SSH
    * **Configuration du fichier de logs `mumble-server.log`**
        * Modification du mot de passe SuperUser
        * Lecture des logs
@@ -19,6 +17,11 @@
        * Clé privée RSA
        * Certificat RSA
        * Autres informations contenues dans la base
+   * **Configuration du serveur SSH**
+       * Modification du port SSH
+
+
+
 
 ###  **Introduction**
 
