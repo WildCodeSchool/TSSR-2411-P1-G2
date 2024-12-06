@@ -92,8 +92,8 @@ Julien, navigue à vue entre ses vms sur Proxmox, surf sur les scripts et appré
 - **Configuration des clients:** Configurer les clients pour se connecter au serveur avec les paramètres corrects.
 
 **3. Configuration de la Journalisation**
-- **Choix des outils:** Utilisation de  `Promtail` , `Loki` et `Grafana` pour surveiller l'état du serveur, la consommation des ressources, et les éventuelles alertes.
-- **Configuration:** Configurer l'outil choisi pour enregistrer les événements pertinents (connexion, déconnexion, messages, etc.).
+- **Choix des outils:** Utilisation de  `Promtail` , `Loki` et `Grafana` pour surveiller l'état du serveur.
+- **Configuration:** Configurer l'outil choisi pour enregistrer les événements pertinents (connexion, déconnexion, etc.).
 
 **6. Considérations Supplémentaires**
 - **Documentation:** Créer une documentation complète pour faciliter la gestion et la maintenance du serveur.
