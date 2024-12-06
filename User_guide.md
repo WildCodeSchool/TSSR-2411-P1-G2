@@ -41,7 +41,7 @@
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%205.png?raw=true)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%206.png?raw=true)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation_mumble%20_7.png?raw=true)
-![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%208.png?raw=true)
+![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation_mumble_8.png?raw=true)
 ![](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/installation%20mumble%209.png?raw=true)
 
 ### Configuration initiale
