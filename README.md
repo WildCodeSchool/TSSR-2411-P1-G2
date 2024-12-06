@@ -7,6 +7,23 @@
 ![](Ressources/Icons_mumble.svg.png)
 
 
+# SOMMAIRE
+
+- **Objectif**: Créer une infrastructure de communication vocale sécurisée et fiable basée sur Mumble.
+
+- **Étapes**:
+     - Installation et configuration du serveur Mumble sur Debian 12.
+     - Connexion de clients multiplateformes.
+     - Mise en place d'un système de journalisation et de surveillance.
+
+- **Équipe**: Une équipe pluridisciplinaire composée d'un Scrum Master, d'un Product Owner et de développeurs.
+
+- **Méthodologie**: Utilisation d'une approche agile avec des sprints.
+
+- **Outils supplémentaires**: Emploi de Promtail, Loki et Grafana pour la journalisation et la surveillance.
+
+
+
 ---
 ## **Introduction: Mise en contexte**
 Ce projet a pour objectif la mise en place d'une infrastructure permettant des communications vocales sécurisées entre plusieurs clients via le logiciel open source **Mumble**.
