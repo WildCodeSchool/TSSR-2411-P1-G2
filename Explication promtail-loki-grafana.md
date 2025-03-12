@@ -89,7 +89,7 @@ sudo systemctl enable promtail
 
 ## LOKI
 
-![image.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/naaaaaa.png)
+![image.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/naaaaaa.pn)
 
 Télécharger Loki depuis ce dépot Github :
 
