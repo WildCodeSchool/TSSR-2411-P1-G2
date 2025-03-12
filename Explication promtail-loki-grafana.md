@@ -237,7 +237,7 @@ passons maintenant a la configuration de Grafana!
 
 ## GRAFANA
 
-![image.png](https://github.com/WildCodeSchool/TSSR-2411-P1-G2/blob/main/Ressources/graaa.png)
+
 
 Prendre en main grafana n’est pas simple de prime abord mais après une petite demi heure de prise en main vous comprendrez les bases et ce guide est la pour vous aider.
 
